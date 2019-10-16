@@ -1,0 +1,35 @@
+#hero {
+    position: absolute;
+    top:552px;
+    left: 400px;
+    background: url('/images/hero.png');
+    width: 35px;
+    height: 54px;
+    background-position: 0, 0;
+    z-index: 1;
+}
+/* #background{
+    position: relative;
+
+} */
+ #field {
+     position: relative;
+ }
+
+/* #left-moved-hero {
+    position: absolute;
+    top:552px;
+    left: 404px;
+    background: url('/images/hero.png') 70px 0;
+    width: 35px;
+    height: 54px;
+} */
+#enemy {
+    background: url('/images/enemy.png');
+    width: 44px;
+    height: 56px;
+    background-position: 0, 0;
+    position: absolute;
+    top: 7px;
+    left: 7px
+}
